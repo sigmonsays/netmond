@@ -1,0 +1,36 @@
+# configuration file for netmond
+
+[general]
+allow = 127.0.0.
+interval = 300
+notifications = 0
+
+[smtp]
+# test user name on server
+user = 
+
+[pop3]
+# test user name and password on server
+user = 
+pass =
+
+[imap]
+# test user name and password on server
+user = 
+pass = 
+
+[radius]
+# test user name and password on radius server
+# radius server secret
+# this feature requires cistron radclient to be installed
+
+user = 
+pass = 
+secret = 
+
+[database]
+host = localhost
+user = root
+pass = 
+database = netmond
+

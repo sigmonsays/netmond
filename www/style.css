@@ -1,0 +1,210 @@
+<STYLE>
+tr.row1 {
+	background-color: #e2e2e2;
+}
+tr.row2 {
+	background-color: #FFFFFF;
+}
+.page {
+	position: absolute;
+	width: 60%;
+	visibility: hidden;
+}
+body {
+	background-color: #eeeeee;
+	scrollbar-face-color: #dddddd;
+	scrollbar-shadow-color: #eeeeee;
+	scrollbar-highlight-color: #eeeeee;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-track-color: #eeeeee;
+	scrollbar-arrow-color: #000000;
+}
+p,ul,ol {
+	color: black;
+	font-size: 80%;
+	font-family: Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
+	text-align: justify;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: "Trebuchet MS", Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
+}
+h1
+{
+	color: #454545;
+	font-size: 175%;
+	font-weight: bold;
+}
+h2
+{
+	color: #707070;
+	font-size: 130%;
+	font-weight: normal;
+	border: 1px solid #cccccc;
+	border-width: 0px 0px 1px 0px;
+	padding-bottom: 0px;
+}
+h3
+{
+	color: #707070;
+	font-size: 120%;
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	border-width: 0px 0px 1px 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.h3
+{
+	color: #707070;
+	font-size: 100%;
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	border-width: 0px 0px 1px 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.nav {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 80%;
+	font-family: Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
+}
+.title {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 80%;
+	font-family: Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
+}
+.heading {
+	color: #454545;
+	padding: 5px;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
+}
+.table {
+	border-right: 1px solid rgb(223, 223, 223);
+	border-bottom: 1px solid rgb(223, 223, 223);
+}
+.small {
+	color: #000000;
+	font-size: 60%;
+	font-family: Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
+}
+.footer {
+	color: #555555;
+	font-size: 60%;
+	font-family: Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
+	text-align: center;
+}
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a:hover {
+	color: #ff0033;
+	text-decoration: underline;
+}
+a.leftmenu:link {
+	color: black;
+	display : block; 
+	padding-top : 2px; 
+	padding-right : 2px; 
+	padding-bottom : 2px; 
+	padding-left : 2px; 
+	border-style : solid; 
+	border-top-width : 0; 
+	border-right-width : 0px;
+	border-bottom-width : 1px; 
+	border-left-width : 0px; 
+	width : 145px; 
+	font-weight : normal; 
+	text-align : left; 
+	text-decoration: none;
+} 
+a.leftmenu:hover {
+	color: black;
+	background-color: #e2e2e2;
+	display : block; 
+	padding-top : 2px; 
+	padding-right : 2px; 
+	padding-bottom : 2px; 
+	padding-left : 2px; 
+	border-style : solid; 
+	border-top-width : 0; 
+	border-right-width : 0px; 
+	border-bottom-width : 1px; 
+	border-left-width : 0px; 
+	width : 145px; 
+	font-weight : normal; 
+	text-align : left; 
+	text-decoration: none;
+} 
+a.leftmenu:visited {
+	color: black;
+	display : block; 
+	padding-top : 2px; 
+	padding-right : 2px; 
+	padding-bottom : 2px; 
+	padding-left : 2px; 
+	border-style : solid; 
+	border-top-width : 0; 
+	border-right-width : 0px; 
+	border-bottom-width : 1px; 
+	border-left-width : 0px; 
+	width : 145px; 
+	font-weight : normal; 
+	text-align : left; 
+	text-decoration: none;
+} 
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: 000000;
+	font-weight: bold;
+	background-color: #F7F3EF;
+	font-size: 10px;
+	border: 1px #000000 outset;
+}
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: 000000;
+	font-weight: bold;
+	background-color: #F7F3EF;
+	font-size: 10px;
+	border: 1px #000000 outset;
+}
+textarea {
+	background-image: url('http://www.signuts.net/images/lightgradient.png');
+	background-repeat: repeat-y;
+	border: 1px outset black;
+	padding: 2px;
+}
+checkbox, radio {
+	border: 1px outset blue;
+	color: green;
+}
+</STYLE>

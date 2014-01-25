@@ -1,0 +1,4 @@
+#!/bin/bash
+
+make clean all && \
+valgrind -v --show-reachable=yes --leak-check=yes --logfile-fd=420 ./netmond -fg -d 420>valgrind.log
